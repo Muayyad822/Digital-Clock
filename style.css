@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  background-image: url(/images/city-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#clock-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.style{
+  font-size: 4rem;
+  font-family: monospace;
+  backdrop-filter: blur(2px);
+  background: radial-gradient(circle, rgba(250, 131, 182, 0.377) 0%, rgba(233, 238, 244, 0.274) 100%);
+  text-align: center;
+  color: crimson;
+  text-shadow: 2px 2px 5px white ;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+#calendar{
+  margin: 30px;
+  font-size: 2rem;
+}
+
+.style:hover{
+  font-size: 6rem;
+}
+#calendar:hover{
+  font-size: 2.5rem;
+}
